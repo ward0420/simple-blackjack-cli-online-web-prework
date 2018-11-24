@@ -55,13 +55,7 @@ def runner(card_total)
   welcome
   deal_card
   display_card_total(card_total)
-  prompt_user
-  user_response = get_user_input
-    if user_response == "s"
-    card_total
-  elsif user_response == "h"
-    card_total += deal_card 
-    card_total
+  hit?(card_total)
   until card_total > 21
 end
   end_game
