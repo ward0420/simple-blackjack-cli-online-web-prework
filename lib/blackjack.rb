@@ -53,6 +53,9 @@ end
 
 def runner(round)
   welcome
+  deal_card
+  display_card_total(card_total)
+  prompt
   until card_total > 21
 end
   end_game
