@@ -52,14 +52,10 @@ end
 #####################################################
 
 def runner(round)
+  welcome
   initial_round
-  prompt_user
-  user_response = get_user_input
-  if user_response == "h"
-    card_total += deal_card
-    card_total
-  elsif user_response == "s"
-    card_total
+  hit?(card_total)
+  display_card_total(card_total)
   end
 end
     
