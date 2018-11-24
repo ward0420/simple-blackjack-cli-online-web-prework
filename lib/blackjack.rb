@@ -51,7 +51,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(card_total)
+def runner(round)
   welcome
   deal_card
   display_card_total(card_total)
