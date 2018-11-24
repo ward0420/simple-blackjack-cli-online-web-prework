@@ -62,7 +62,6 @@ def runner(round)
   elsif user_response == "h"
     card_total += deal_card 
     card_total
-  
   until card_total > 21
 end
   end_game
